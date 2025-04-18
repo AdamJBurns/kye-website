@@ -1,7 +1,6 @@
 'use client';
 
 import React from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 
 const Hero = () => {
@@ -9,14 +8,10 @@ const Hero = () => {
     <div className="relative min-h-screen bg-black">
       {/* Hero Background Image */}
       <div className="absolute inset-0">
-        <Image
-          src="/hero-image.png"
+        <img
+          src="/kye-website/hero-image.png"
           alt="Drone flying over landscape"
-          fill
-          sizes="100vw"
-          className="object-cover opacity-75"
-          priority
-          quality={100}
+          className="w-full h-full object-cover opacity-75"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-transparent to-black/40" />
       </div>

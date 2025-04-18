@@ -1,7 +1,6 @@
 'use client';
 
 import React from 'react';
-import Image from 'next/image';
 
 export default function BentoGrid() {
   return (
@@ -30,12 +29,10 @@ export default function BentoGrid() {
                 </div>
               </div>
               <div className="relative w-40 h-40">
-                <Image
-                  src="/bento1.png"
+                <img
+                  src="/kye-website/bento1.png"
                   alt="Aerial Photography Illustration"
-                  fill
-                  className="object-contain"
-                  quality={100}
+                  className="w-full h-full object-contain"
                 />
               </div>
             </div>
@@ -56,12 +53,10 @@ export default function BentoGrid() {
                 </div>
               </div>
               <div className="relative w-40 h-40">
-                <Image
-                  src="/bento2.png"
+                <img
+                  src="/kye-website/bento2.png"
                   alt="Mapping & Surveying Illustration"
-                  fill
-                  className="object-contain"
-                  quality={100}
+                  className="w-full h-full object-contain"
                 />
               </div>
             </div>
@@ -82,12 +77,10 @@ export default function BentoGrid() {
                 </div>
               </div>
               <div className="relative w-40 h-40">
-                <Image
-                  src="/bento3.png"
+                <img
+                  src="/kye-website/bento3.png"
                   alt="Infrastructure Inspection Illustration"
-                  fill
-                  className="object-contain"
-                  quality={100}
+                  className="w-full h-full object-contain"
                 />
               </div>
             </div>
@@ -108,12 +101,10 @@ export default function BentoGrid() {
                 </div>
               </div>
               <div className="relative w-40 h-40">
-                <Image
-                  src="/bento4.png"
+                <img
+                  src="/kye-website/bento4.png"
                   alt="Event Coverage Illustration"
-                  fill
-                  className="object-contain"
-                  quality={100}
+                  className="w-full h-full object-contain"
                 />
               </div>
             </div>
