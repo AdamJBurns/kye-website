@@ -6,6 +6,14 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  // Disable prefetching for static export
+  experimental: {
+    optimizeCss: true,
+  },
+  // Disable prefetching
+  poweredByHeader: false,
+  reactStrictMode: true,
+  swcMinify: true,
 }
 
 module.exports = nextConfig 

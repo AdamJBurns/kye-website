@@ -2,7 +2,6 @@
 
 import React from 'react';
 import { FaRobot, FaMap, FaCamera, FaVideo } from 'react-icons/fa';
-import Image from 'next/image';
 
 const features = [
   {
@@ -45,12 +44,10 @@ export default function About() {
             </p>
           </div>
           <div className="relative h-[400px] overflow-hidden">
-            <Image
-              src="/about-image.png"
+            <img
+              src="/kye-website/about-image.png"
               alt="Drone in action"
-              fill
-              className="object-cover"
-              quality={100}
+              className="w-full h-full object-cover"
             />
           </div>
         </div>
