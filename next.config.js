@@ -2,6 +2,7 @@
 const nextConfig = {
   output: 'export',
   basePath: '/kye-website',
+  assetPrefix: '/kye-website/',
   images: {
     unoptimized: true,
   },
